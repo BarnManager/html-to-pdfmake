@@ -32,7 +32,7 @@
  * });
  */
 //var util = require("util"); // to debug
-module.exports = function(htmlText, options) {
+window.htmlToPdfmake = function(htmlText, options) {
   var wndw = (options && options.window ? options.window : window);
 
   // set default styles
